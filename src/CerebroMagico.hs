@@ -3,7 +3,8 @@ module CerebroMagico where
 vocales :: String
 vocales = "aeiouAEIOU"
 
--- BORRAR ESTOS COMENTARIOS Y COMPLETAR LA SOLUCIÓN DEL ENUNCIADO EN ESTE ARCHIVO
--- esVocal :: ...
--- esVocal letra = ...
+esVocal letra = elem letra vocales
 
+esParticular = esVocal . head || (length nombre > 7)
+
+esMagico = esParticular  && not esVocal . last 
