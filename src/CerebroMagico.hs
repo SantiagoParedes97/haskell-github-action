@@ -7,4 +7,4 @@ esVocal letra = elem letra vocales
 
 esParticular = esVocal . head || (length nombre > 7)
 
-esMagico = esParticular  && not esVocal . last 
+esMagico = esParticular  && not esVocal . last
