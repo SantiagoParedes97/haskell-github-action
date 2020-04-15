@@ -4,5 +4,5 @@ import CerebroMagico
 main :: IO()
 main = hspec $ do
   describe "#esVocal" $ do
-     it "a es vocal" $ do
-       esVocal 'a' `shouldBe` True
+     it "e es vocal" $ do
+       esVocal 'e' `shouldBe` True
