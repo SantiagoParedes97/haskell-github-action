@@ -5,6 +5,6 @@ vocales = "aeiouAEIOU"
 
 esVocal letra = elem letra vocales
 
-esParticular = esVocal . head || (length nombre > 7)
+esParticular nombre = (esVocal . head) nombre || (length nombre > 7)
 
-esMagico = esParticular  && not esVocal . last
+esMagico nombre = esParticular nombre && (not.esVocal.last)nombre
