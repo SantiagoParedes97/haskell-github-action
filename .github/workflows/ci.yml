@@ -20,7 +20,7 @@ jobs:
         cache-name: cache-stack-modules
       with:
         path: /home/runner/.stack/
-        key: ${{ hashFiles('**/stack.yaml.lock') }}
+        key: "asfadsgfads"
       
     - name: stack install, build and test
       run: |
