@@ -1,4 +1,4 @@
-# Cerebro Mágico
+# Cerebro Mágico 
 
 ## Enunciado
 En [este link](https://docs.google.com/document/d/17_8sUM-7oMtfp03LJE38ErWX3ijqtIUZxE5kXE8VEFs/edit?usp=sharing)
